@@ -10,11 +10,26 @@
 
 <body>
     <form action="test">
-        <input type="text" placeholder="input text" te>
-        <input type="password" placeholder="input password">
-        <input type="number" placeholder="input number">
-        <input type="color" placeholder="input color">
+        <p>
+            <label for="text">Label for text</label>
+            <input type="text" placeholder="input text" id="text" name="username">
+        </p>
+        <p>
+            <label for="password">Label for password</label>
+            <input type="password" placeholder="input password" id="password" name="password">
+        </p>
+        <p>
+            <label for="number">Label for number</label>
+            <input type="number" placeholder="input number" id="number" name="num">
+        </p>
+        <p>
+            <label for="color">Label for input color</label>
+            <input type="color" placeholder="input color" id="color" name="color">
+        </p>
+        <button>Submit a form using button</button>
     </form>
+    <br>
+    <button>outside a form</button>
 </body>
 
 </html>
